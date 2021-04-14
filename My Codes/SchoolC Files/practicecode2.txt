@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int reverse()
+{
+
+    int number;
+    int number1;
+    int counter;
+    int counter1;
+    int newNumber;
+
+    printf("Enter a number: ")
+    scanf("%d", &number)
+
+    number1 = number;
+
+    while(number1 != 0)
+    {
+        number1 /= 10;
+        ++counter1;
+
+    }
+
+    printf("%d", counter1);
+
+    for(counter =0;number>0;counter++)
+    {
+        newNumber= number % 10;
+    }
+
+return 0;
+
+}

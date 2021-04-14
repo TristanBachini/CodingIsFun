@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="680.0" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="476.0" layoutY="14.0" prefHeight="100.0" prefWidth="182.0" spacing="30.0">
+         <children>
+            <StackPane />
+            <ImageView fx:id="ActiveCardImageView" fitHeight="100.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="NextCardButton" mnemonicParsing="false" onAction="#nextCard" prefHeight="67.0" prefWidth="50.0" style="-fx-background-repeat: no-repeat;" stylesheets="@../application.css" />
+         </children>
+      </HBox>
+      <VBox fx:id="vBox1" layoutX="139.0" layoutY="118.0" maxWidth="50.0" minWidth="50.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox2" layoutX="217.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox3" layoutX="290.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox4" layoutX="365.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox5" layoutX="441.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox6" layoutX="516.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <VBox fx:id="vBox7" layoutX="589.0" layoutY="118.0" prefHeight="500.0" prefWidth="50.0" />
+      <ImageView fx:id="ActiveCardImageViewCopy" fitHeight="43.0" fitWidth="58.0" layoutX="32.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="HSButton" layoutX="10.0" layoutY="187.0" mnemonicParsing="false" onAction="#highscore" prefHeight="40.0" prefWidth="103.0" stylesheets="@../application.css" text="High Scores" />
+      <Button fx:id="exitButton" layoutX="24.0" layoutY="466.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="87.0" stylesheets="@../application.css" text="Exit" />
+      <HBox alignment="CENTER_LEFT" layoutX="145.0" layoutY="31.0" maxHeight="67.0" minHeight="67.0" prefHeight="67.0" prefWidth="291.0" spacing="10.0">
+         <children>
+            <StackPane />
+            <ImageView fx:id="H" fitHeight="67.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="C" fitHeight="67.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="D" fitHeight="67.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="S" fitHeight="67.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <Label layoutX="24.0" layoutY="593.0" prefHeight="33.0" prefWidth="38.0" text="Score:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button fx:id="newGame" layoutX="16.0" layoutY="114.0" mnemonicParsing="false" onAction="#newGame" stylesheets="@../application.css" text="New Game" />
+      <Button fx:id="changeBoard" layoutX="16.0" layoutY="401.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="103.0" stylesheets="@../application.css" text="Game Func" />
+      <Label fx:id="inGameScore" alignment="CENTER" layoutX="62.0" layoutY="593.0" prefHeight="33.0" prefWidth="70.0" style="-fx-background-color: #dafcc7; -fx-background-radius: 7;" text="0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minHeight="300.0" minWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.controller.TrigoViewController">
+   <children>
+      <Label layoutX="86.0" layoutY="43.0" text="Trigonometric Calculator" />
+      <Button layoutX="58.0" layoutY="112.0" mnemonicParsing="false" onAction="#sin" text="Sin()" />
+      <Button layoutX="130.0" layoutY="112.0" mnemonicParsing="false" onAction="#cos" text="Cos()" />
+      <Button layoutX="51.0" layoutY="156.0" mnemonicParsing="false" onAction="#asin" text="arcsin()" />
+      <Button layoutX="121.0" layoutY="156.0" mnemonicParsing="false" onAction="#acos" text="arccos()" />
+      <Button layoutX="206.0" layoutY="112.0" mnemonicParsing="false" onAction="#tan" text="Tan()" />
+      <Button layoutX="199.0" layoutY="156.0" mnemonicParsing="false" onAction="#atan" text="arctan()" />
+      <TextField fx:id="input" layoutX="77.0" layoutY="199.0" />
+      <Label fx:id="label" layoutX="136.0" layoutY="78.0" minWidth="30.0" />
+      <Button layoutX="32.0" layoutY="241.0" mnemonicParsing="false" onAction="#openTrigoHistory" text="History" />
+      <Button layoutX="190.0" layoutY="241.0" mnemonicParsing="false" onAction="#backToArith" text="Arithmetic" />
+   </children>
+</AnchorPane>

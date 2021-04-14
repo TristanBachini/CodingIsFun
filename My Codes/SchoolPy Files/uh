@@ -1,0 +1,9 @@
+
+        for r in range(1,61):
+
+            if nonLychrel == int(str(nonLychrel)[::-1]):
+                notLychrel += 1
+
+            if nonLychrel != int(str(nonLychrel)[::-1]):
+                nonLychrel += int(str(nonLychrel)[::-1])
+         r += 1

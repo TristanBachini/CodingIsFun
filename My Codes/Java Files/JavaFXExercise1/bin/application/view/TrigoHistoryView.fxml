@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane minHeight="300.0" minWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.controller.TrigoHistoryViewController">
+   <children>
+      <VBox fx:id="vbox" layoutX="36.0" layoutY="41.0" prefHeight="200.0" prefWidth="228.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,148 @@
+.root{
+	-fx-background-image: url("../../resources/bg.jpg"); 
+	-fx-background-size: 680px 650px;
+}
+
+#HSButton {
+	-fx-text-fill: WHITE;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+#HSButton:hover {
+	-fx-background-color:
+		linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #71301D,
+        #9B4E28,
+        radial-gradient(center 50% 50%, radius 100%, #954A25, #c54e2c);
+}
+
+#HSButton:pressed {
+	-fx-background-color: 
+      linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+      #71301D,
+      #9B4E28,
+      radial-gradient(center 50% 50%, radius 100%, #954A25, #c54e2c);
+  	-fx-translate-y: 5px;
+}
+
+#newGame {
+	-fx-text-fill: WHITE;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #8FA313 0%, #908C12 100%),
+        #989D24,
+        #D8CE3A,
+        radial-gradient(center 50% 50%, radius 100%, #D8D83A, #C5C52C);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+#newGame:hover {
+	-fx-background-color:
+		linear-gradient(from 0% 93% to 0% 100%, #8FA313 0%, #908C12 100%),
+        #71711D,
+        #989B28,
+        radial-gradient(center 50% 50%, radius 100%, #959325, #C5C32C);
+}
+
+#newGame:pressed {
+	-fx-background-color: 
+      linear-gradient(from 0% 93% to 0% 100%, #8FA313 0%, #908C12 100%),
+      #71711D,
+      #989B28,
+      radial-gradient(center 50% 50%, radius 100%, #959325, #C5C32C);
+  	-fx-translate-y: 5px;
+}
+
+#changeBoard {
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #7D726F 0%, #7D726F 100%),
+        #7D726F,
+        #A09692,
+        radial-gradient(center 50% 50%, radius 100%, #CBB7AE, #C4AEA8);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+#changeBoard:hover {
+	-fx-background-color:
+		linear-gradient(from 0% 93% to 0% 100%, #8B8B9C 0%, #8B8B9B 100%),
+        #4C4C56,
+        #7C7C8A,
+        radial-gradient(center 50% 50%, radius 100%, #B8BCCF, #A6AABB);
+}
+
+#changeBoard:pressed {
+	-fx-background-color: 
+      linear-gradient(from 0% 93% to 0% 100%, #8B8B9C 0%, #8B8B9B 100%),
+      #4C4C56,
+      #7C7C8A,
+      radial-gradient(center 50% 50%, radius 100%, #B8BCCF, #A6AABB);
+  	-fx-translate-y: 5px;
+}
+
+#exitButton {
+	-fx-text-fill: WHITE;
+	-fx-font-weight: bold;
+	-fx-cursor: hand;
+	-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #A31313 0%, #901212 100%),
+        #660404,
+        #D24747,
+        radial-gradient(center 50% 50%, radius 100%, #C72C2C, #B52020);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+#exitButton:hover {
+	-fx-background-color:
+		linear-gradient(from 0% 93% to 0% 100%, #7C0303 0%, #6C0202 100%),
+        #680D0D,
+        #751414,
+        radial-gradient(center 50% 50%, radius 100%, #A72929, #9E1C1C);
+}
+
+#exitButton:pressed {
+	-fx-background-color:
+		linear-gradient(from 0% 93% to 0% 100%, #7C0303 0%, #6C0202 100%),
+        #680D0D,
+        #751414,
+        radial-gradient(center 50% 50%, radius 100%, #A72929, #9E1C1C);
+  	-fx-translate-y: 5px;
+}
+
+#NextCardButton{
+	-fx-background-image: url("../poker-standard/B.png");
+	-fx-background-size: 50, 67;
+	-fx-cursor: hand;
+}
+
+#NextCardButton:pressed{
+	-fx-background-color: transparent; 
+	-fx-translate-y: 3px; 
+	-fx-translate-x: 3px; 
+	-fx-cursor: hand;
+}
+
+
+

@@ -1,0 +1,30 @@
+lower = int(input("Enter a lower bound:"))
+upper = int(input("Enter an upper bound:"))
+loop = 1
+palindrome = 0
+Lychrel = 0
+non_lychrel = 0
+for number in range(lower, upper+1):
+    temp = number
+    reverse = 0
+    while (number > 0):
+        remainder = number % 10
+        reverse = (reverse * 10) + remainder
+        number = number // 10
+    if (temp == reverse):
+        palindrome = palindrome + 1
+    else:
+        while (temp != reverse):
+            total = temp + reverse
+            temp = total
+            reverse = 0
+            while (total > 0):
+                remainder = total % 10
+                reverse = (reverse * 10) + remainder
+                total = total // 10
+            if (temp == reverse):
+                non_lychrel = non_lychrel + 1
+                loop = loop + 1
+                if loop > 61:
+                    Lychrel = Lychrel + 1
+                    break
